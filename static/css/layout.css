@@ -3,8 +3,8 @@
       font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background-color: whitesmoke;
-    color:  #17421D;
+    background-color: rgb(168, 99, 207);
+    color:  rgb(238, 177, 8);
 }
 .container{
     width: 1080px;
@@ -16,7 +16,7 @@ body{
 }
 
 .banner{
-    display: block;
+    display: inline-block;
     width: 100%;
     height: 250px;
     text-align: center;
@@ -25,15 +25,15 @@ body{
     background-size:cover;
     margin: 0px 0px 0px 0px;
     padding-top: 150px;
-    color: #17421D;
+    color: rgb(23, 38, 66);
 }
 
 .menu{
-    display: block;
+    display: inline-block;
     width: 100%;
     height: 50px;
     font-size: larger;
-    background-color: #17421D;
+    background-color: rgb(6, 65, 14);
     text-align: center;
     padding-top: 15px;
     margin: 0px 0px 0px 0px;
@@ -52,13 +52,13 @@ body{
 }
 
 .content{
-    display: block;
+    display: inline-block;
     width: 100%;
-    background-color: white;
+    background-color: rgb(118, 124, 131);
     min-height: 500px;
     margin: 0px 0px 0px 0px;
     border-width: 1px;
-    border-color: white;
+    border-color: rgb(226, 97, 10);
     border-style: solid;
 }
 .homecontent{
@@ -89,7 +89,7 @@ body{
 }
 
 .productitems{
-    display: block;
+    display: inline-block;
 }
 
 .productitem{
@@ -102,10 +102,10 @@ body{
 .productitem img{
     width: 100px;
     height: 100px;
-    display: block;
+    display: inline-block;
 }
 .productitem .itemimage{
-    display: block;
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
     width: 100px;
@@ -113,19 +113,20 @@ body{
 }
 
 .productitem .itemname{
-    display: block;
+    display: inline-block;
 }
 .productitem .itemprice{
-    display: block;
+    display: inline-block;
 }
 
 .footer{
-    display: block;
+    display: inline-block;
     width: 100%;
     height: 40px;
-    background-color: #17421D;
+    background-color: rgb(6, 65, 14);
     text-align: center;
     padding-top: 10px;
     margin: 0px 0px 0px 0px;
     color: rgb(218, 214, 214);
 }
+

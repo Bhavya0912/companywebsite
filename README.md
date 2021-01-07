@@ -41,14 +41,14 @@ Publish the website in the given URL.
     <div class="menu">
         <div class="menuitem"><a href="/home">Home</a></div> 
         <div class="menuitem"><a href="/products">Products</a></div> 
-        <div class="menuitem"><a>People</a></div>
+        <div class="menuitem"><a> href="/People">people</a></div>
         <div class="menuitem"><a>Contact Us</a></div> 
     </div><div class="content">
     {% block content %}    
     {% endblock  %}
     </div>
     <div class="footer">
-        Copyright © 2020 Silicon Private Limited, Developed by Obed Otto.
+        Copyright © 2020 Silicon Private Limited, Developed by bhavya.
     </div>
     </div>
 </body>

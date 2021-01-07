@@ -1,0 +1,89 @@
+.peoplecontent{
+    min-height: 500px;
+    margin: 10px 10px 10px 10px;
+}
+
+.peoplecontent h1{
+    text-align: left;    
+}
+
+.people{
+    display: block;
+}
+
+.crew{
+    display: inline-block;
+    width: 30%;
+    height: 250px;
+    text-align: center;
+}
+
+.crew img{
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+.crew .peopleimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    margin-bottom: 5px;
+}
+
+.crew .personname{
+    display: block;
+}
+.crew .designation{
+    display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 3px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 5px;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 400px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
